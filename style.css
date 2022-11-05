@@ -1,0 +1,32 @@
+body {
+    display: block;
+    align-items: center;
+}
+.grid {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(113, 149, 151);
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    border: 5xp solid;
+    box-sizing: border-box;
+}
+
+.mine {
+    height: 40xp;
+    width: 40xp;
+    border: 5xp solid;
+    background-color: rgb(113, 149, 151);
+}
+
+.checked {
+    height: 40xp;
+    width: 40xp;
+    background-color: rgb(238, 211, 123);
+    border: 2xp solid;
+}
